@@ -1,6 +1,6 @@
 # ksql-udf-overlapping-ranges
 
-KSQL / ksqlDB UDF to test whether any ranges, defined in a JSON array, overlap with each other.
+KSQL / ksqlDB UDF to test whether any numeric ranges, defined in a JSON array, overlap with each other.
 
 More specifically, assume that the input is an array of JSON strings. Each entry i this array is assumed to have attributes
 for the start-value and end-value of some numeric range (integral values only, limits are Long.MIN_VALUE -> Long.MAX_VALUE).
